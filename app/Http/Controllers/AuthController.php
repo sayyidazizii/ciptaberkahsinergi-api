@@ -21,7 +21,7 @@ use PHPMailer\PHPMailer\Exception;
  
 // Tentukan lokasi vendor autoload.php
 $vendor1 = "../vendor/autoload.php";
-$vendor2 = "/var/www/html/jacob-api-new/vendor/autoload.php";
+$vendor2 = "/var/www/html/ciptaberkahsinergi-api/vendor/autoload.php";
 
 // Periksa apakah vendor autoload.php pertama ada
 if (file_exists($vendor1)) {
