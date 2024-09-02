@@ -11,7 +11,7 @@ class PreferenceTransactionModule extends Model
     protected $connection = 'mysql3';
     protected $table = 'preference_transaction_module'; 
     protected $primaryKey = 'transaction_module_id';
-    protected $guarded = ['transaction_module_id', 'created_on', 'last_update'];
-    const CREATED_AT = 'created_on';
-    const UPDATED_AT = 'last_update';
+    protected $guarded = ['transaction_module_id', 'created_at', 'updated_at'];
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
 }

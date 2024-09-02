@@ -11,7 +11,7 @@ class AcctJournalVoucherItem extends Model
     protected $connection = 'mysql3';
     protected $table = 'acct_journal_voucher_item'; 
     protected $primaryKey = 'journal_voucher_item_id';
-    protected $guarded = ['journal_voucher_item_id', 'created_on', 'last_update'];
-    const CREATED_AT = 'created_on';
-    const UPDATED_AT = 'last_update';
+    protected $guarded = ['journal_voucher_item_id', 'created_at', 'updated_at'];
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
 }

@@ -18,8 +18,8 @@ class AcctSavingsAccount extends Model
             'savings_id', 
             'savings_name', 
             'savings_account_last_balance', 
-            'last_update'
+            'updated_at'
         ];
-    const CREATED_AT        = 'created_on';
-    const UPDATED_AT        = 'last_update';
+    const CREATED_AT        = 'created_at';
+    const UPDATED_AT        = 'updated_at';
 }

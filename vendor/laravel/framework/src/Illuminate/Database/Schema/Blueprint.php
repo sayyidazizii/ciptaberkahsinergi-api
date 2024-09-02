@@ -432,7 +432,7 @@ class Blueprint
      */
     public function dropTimestamps()
     {
-        $this->dropColumn('created_at', 'updated_at');
+        $this->dropColumn('created_on', 'last_update');
     }
 
     /**

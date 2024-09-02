@@ -11,7 +11,7 @@ class AcctSavings extends Model
     protected $connection = 'mysql3';
     protected $table = 'acct_savings'; 
     protected $primaryKey = 'savings_id';
-    protected $guarded = ['savings_id', 'created_on', 'last_update'];
-    const CREATED_AT = 'created_on';
-    const UPDATED_AT = 'last_update';
+    protected $guarded = ['savings_id', 'created_at', 'updated_at'];
+    const CREATED_AT = 'created_at';
+    const UPDATED_AT = 'updated_at';
 }
