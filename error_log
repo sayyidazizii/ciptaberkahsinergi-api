@@ -1,0 +1,68 @@
+[08-Apr-2022 06:25:24 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:24 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:25 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:29 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:33 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 13:27:08 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:21
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(21): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/v...', '/home/ciptaproc...', 21, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(21): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illuminat in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 21
+[08-Apr-2022 13:27:08 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 21
+[21-Jun-2022 14:18:49 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require(/home/ciptaprocpanel/public_html/-api/vendor/phpmailer/phpmailer/src/Exception.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:25
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(25): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/c...', '/home/ciptaproc...', 25, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(25): require()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_ht in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 25
+[21-Jun-2022 14:18:49 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '/home/ciptaprocpanel/public_html/-api/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 25
+[29-Mar-2023 04:58:27 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 04:58:27 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:43 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:43 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:58 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:58 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:01:48 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:01:48 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
