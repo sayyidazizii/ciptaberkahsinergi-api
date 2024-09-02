@@ -10,7 +10,7 @@
           <div class="row justify-content-center ">
             <div class="col-lg-6 text-center ">
               <a href="#" data-fancybox data-aos="fade-up" data-aos-delay="0" class="caption mb-4 d-inline-block">Api Documentation</a>
-              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">JJM</h1>
+              <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">CBS</h1>
               <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-secondary"></a></p>
             </div>
           </div>
